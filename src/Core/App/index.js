@@ -1,1 +1,3 @@
-export const App = () => "ERT Notes";
+import { Routes } from "./Routes";
+
+export const App = () => <Routes />;
