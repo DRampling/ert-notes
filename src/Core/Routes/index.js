@@ -12,9 +12,9 @@ export const AppRoutes = () => {
   return (
     <Router>
       <Routes>
-        <Route exact path={NotesRoute.path} component={NotesPage} />
-        <Route exact path={NoteRoute.path} component={NotePage} />
-        <Route exact path={SplashRoute.path} component={SplashPage} />
+        <Route exact path={NotesRoute.path} element={<NotesPage />} />
+        <Route exact path={NoteRoute.path} element={<NotePage />} />
+        <Route exact path={SplashRoute.path} element={<SplashPage />} />
       </Routes>
     </Router>
   );
